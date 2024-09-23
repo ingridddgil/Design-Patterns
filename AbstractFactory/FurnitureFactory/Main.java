@@ -5,7 +5,5 @@ public class Main {
         IFactoryAbstract factory = new ArtDecoFactory();
         FurnitureStore store = new FurnitureStore(factory);
         store.showFurnitures();
-
-        
     }
 }
