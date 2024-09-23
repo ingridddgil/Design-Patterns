@@ -12,8 +12,8 @@ public class FurnitureStore {
     }
 
     public void showFurnitures(){
-        chair.sentarse();
-        sofa.acostarse();
-        coffeetable.usar();
+        chair.sitOn();
+        sofa.lieOn();
+        coffeetable.use();
     }
 }

@@ -2,8 +2,8 @@ package AbstractFactory.FurnitureFactory;
 
 public class ArtDecoCoffeeTable implements ICoffeeTable {
     @Override
-    public void usar(){
-        System.out.println("Estás usando una mesa art deco");
+    public void use(){
+        System.out.println("I'm using an Art Deco coffee table");
     }
 
 }

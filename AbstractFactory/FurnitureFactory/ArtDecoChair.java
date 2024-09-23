@@ -2,8 +2,8 @@ package AbstractFactory.FurnitureFactory;
 
 public class ArtDecoChair implements IChair {
     @Override
-    public void sentarse(){
-        System.out.println("Estás sentado en una silla art deco");
+    public void sitOn(){
+        System.out.println("I'm sitting on an Art Deco chair");
     }
 
 }

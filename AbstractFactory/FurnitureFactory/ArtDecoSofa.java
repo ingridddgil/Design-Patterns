@@ -3,8 +3,8 @@ package AbstractFactory.FurnitureFactory;
 public class ArtDecoSofa implements ISofa {
 
     @Override
-    public void acostarse(){
-        System.out.println("Estás acostado en un sofa ArtDeco");
+    public void lieOn(){
+        System.out.println("I'm lying on an Art Deco sofa");
     }
 
 }
